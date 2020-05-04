@@ -3,12 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0C01D99AE4362FCBA4F162AB /* Pods_UserAuthIOS_UserAuthIOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCB7681748AF7FD9BFE66347 /* Pods_UserAuthIOS_UserAuthIOSUITests.framework */; };
 		2E9B54F36A256106239BE246 /* Pods_UserAuthIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5E06C9A306C58CEFB497AEE /* Pods_UserAuthIOS.framework */; };
+		7ECEA4B42460D60100FDDDFE /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7ECEA4B32460D60100FDDDFE /* icon.png */; };
 		7EE95654245DF74100DB6058 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE95653245DF74100DB6058 /* AppDelegate.swift */; };
 		7EE95656245DF74100DB6058 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE95655245DF74100DB6058 /* SceneDelegate.swift */; };
 		7EE95658245DF74100DB6058 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE95657245DF74100DB6058 /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 		29C416A9FFA4B76338C8B8E8 /* Pods-UserAuthIOS-UserAuthIOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserAuthIOS-UserAuthIOSUITests.release.xcconfig"; path = "Target Support Files/Pods-UserAuthIOS-UserAuthIOSUITests/Pods-UserAuthIOS-UserAuthIOSUITests.release.xcconfig"; sourceTree = "<group>"; };
 		53D20B294F5662D0BD5B2F27 /* Pods-UserAuthIOS-UserAuthIOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserAuthIOS-UserAuthIOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-UserAuthIOS-UserAuthIOSUITests/Pods-UserAuthIOS-UserAuthIOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6A09CD16696CECE62E856DDC /* Pods-UserAuthIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserAuthIOS.debug.xcconfig"; path = "Target Support Files/Pods-UserAuthIOS/Pods-UserAuthIOS.debug.xcconfig"; sourceTree = "<group>"; };
+		7ECEA4B32460D60100FDDDFE /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../../Downloads/icon.png; sourceTree = "<group>"; };
 		7EE95650245DF74100DB6058 /* UserAuthIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserAuthIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE95653245DF74100DB6058 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EE95655245DF74100DB6058 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		7EE95652245DF74100DB6058 /* UserAuthIOS */ = {
 			isa = PBXGroup;
 			children = (
+				7ECEA4B32460D60100FDDDFE /* icon.png */,
 				7EE95683245DF7D200DB6058 /* GoogleService-Info.plist */,
 				7EE95653245DF74100DB6058 /* AppDelegate.swift */,
 				7EE95655245DF74100DB6058 /* SceneDelegate.swift */,
@@ -168,7 +171,6 @@
 				FE563CEC82387FC6E5ABAC3E /* Pods-UserAuthIOSTests.debug.xcconfig */,
 				EA12D4F7EB0F243DC119D28B /* Pods-UserAuthIOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -282,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EE95660245DF74300DB6058 /* LaunchScreen.storyboard in Resources */,
+				7ECEA4B42460D60100FDDDFE /* icon.png in Resources */,
 				7EE95684245DF7D200DB6058 /* GoogleService-Info.plist in Resources */,
 				7EE9565D245DF74300DB6058 /* Assets.xcassets in Resources */,
 				7EE9565B245DF74100DB6058 /* Main.storyboard in Resources */,
@@ -589,6 +592,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26G7X62A2N;
 				INFOPLIST_FILE = UserAuthIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -607,6 +611,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 26G7X62A2N;
 				INFOPLIST_FILE = UserAuthIOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
